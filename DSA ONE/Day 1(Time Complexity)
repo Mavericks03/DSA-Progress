@@ -1,0 +1,8 @@
+Def-> Time taken by an algorithm as a function of the length of input.
+
+O() -> Worst case scenario.
+f(n)=3n^2+5n -> O(n^2)
+f(n)=n+ 100logn ->O(n)  //take the max variable & ignore the constant.
+f(n)=3n^3+4n^5 ->O(n^5)
+f(n)= 10000 -> O(10000)
+
