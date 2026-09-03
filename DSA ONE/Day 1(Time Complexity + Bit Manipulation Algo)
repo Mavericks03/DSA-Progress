@@ -1,0 +1,37 @@
+Def-> Time taken by an algorithm as a function of the length of input.
+
+O() -> Worst case scenario.
+f(n)=3n^2+5n -> O(n^2)
+f(n)=n+ 100logn ->O(n)  //take the max variable & ignore the constant.
+f(n)=3n^3+4n^5 ->O(n^5)
+f(n)= 10000 -> O(10000) -> O(1)
+
+O(n) : n/4, n+100/4, 5n+ 3logn
+O(n^2) : 5n^2+7n+2, 3n^2+logn, n^2/100
+e.g:-
+
+fun(n){
+  if(n==0)
+    return 1;
+  for(int i=0;i<n;i++){
+        ------------} c
+          }
+      fun(n/2);
+      fun(n/2);
+}
+T(n)=2T(n/2)+nc;
+O(nlogn)
+by Recursion Tree method
+or Substitution Method
+
+10^8 Operations Rule
+
+Length(n)      Time Complexity
+<=[10..11]      O(n!),O(n^6)
+<=[15....18]    O(2^n * n^2)
+<100            O(n^4)
+<400            O(n^3)
+<2000           O(n^2 * log n)
+<10^4           O(n^2)
+<10^6           O(nlogn)
+<10^8           O(n),O(nlogn)
