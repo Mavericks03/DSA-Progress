@@ -35,3 +35,7 @@ Length(n)      Time Complexity
 <10^4           O(n^2)
 <10^6           O(nlogn)
 <10^8           O(n),O(nlogn)
+
+
+
+Revise Bitwise Operator AND &;OR |;XOR ^; INVERSE ~; RIGHT SHIFT OPERATOR >>; LEFT SHIFT OPERATOR <<;
